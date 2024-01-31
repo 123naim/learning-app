@@ -1,7 +1,6 @@
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 
-const JsSyntax = () => {
-
+const JsVariables = () => {
     return (
         <div className="grid grid-cols-5">
             {/* Main Content */}
@@ -9,7 +8,7 @@ const JsSyntax = () => {
                 <div>
                     <div>
                         <div>
-                            <h2 name='syntax' className="text-[40px] tracking-wide mt-7 ml-9  font-normal">JavaScript Syntax</h2>
+                            <h2 name='syntax' className="text-[40px] tracking-wide mt-7 ml-9  font-normal">JavaScript Variables</h2>
                             <div className="flex justify-between ml-9 mr-9 my-7">
                                 <button className="flex items-center bg-[#04aa6d] px-4 py-2 rounded-md text-white font-medium text-[18px]"><MdArrowBackIos /> Previous</button>
                                 <button className="flex items-center gap-1 bg-[#04aa6d] px-4 py-2 rounded-md text-white font-medium text-[18px]">Next   <MdArrowForwardIos /> </button>
@@ -20,11 +19,11 @@ const JsSyntax = () => {
                             <div className="bg-white border-l-4 border-[#04aa6d] py-3 px-4 text-[19px]">
                                 <div>
                                     <div className="font-medium">
-                                        <h2>What is JavaScript Syntax ?</h2>
-                                        <p className="font-normal text-[17px] mt-3 pl-4 leading-8">
-                                            JavaScript syntax is the set of rules that define how code should be written in the JavaScript programming language, widely used for web development. <br />
-                                            ( JavaScript এর সিনট্যাক্স হলো প্রোগ্রামিং ভাষার নিয়মাবলী, যা ব্রাউজারে কোড লিখতে ব্যবহৃত হয়। এটি প্রধানত ওয়েব ডেভেলপমেন্টে ব্যবহৃত
-                                            হয়।)
+                                        <h2>What is JavaScript Variables ?</h2>
+                                        <p className="font-normal text-[17px] mt-3 pl-4 leading-7">
+                                            A JavaScript variable is a named container used for storing data that may change over time. It can hold various types of data such as numbers, strings, objects, etc. <br />
+                                            (
+                                            JavaScript ভেরিয়েবল হলো একটি নামের ধারণা যা ডেটা সংরক্ষণের জন্য ব্যবহার করা হয়, যেখানে ডেটা পরিবর্তনশীল হতে পারে। উদাহরণস্বরূপ, সংখ্যা, স্ট্রিং, অবজেক্ট ইত্যাদি ধরণের তথ্য সংরক্ষণের জন্য ভেরিয়েবল ব্যবহৃত হতে পারে।)
 
                                         </p>
                                     </div>
@@ -58,4 +57,4 @@ const JsSyntax = () => {
     );
 };
 
-export default JsSyntax;
+export default JsVariables;
