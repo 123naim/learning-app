@@ -16,7 +16,7 @@ const DataTypes = () => {
                         </div>
                         <div className="bg-[#e7e9eb] px-9 pt-4 pb-6">
                             <h2 className="text-[28px] font-bold pb-4">Defination</h2>
-                            <div className="bg-white border-l-4 border-[#04aa6d] py-3 px-4 text-[19px]">
+                            <div className="bg-white rounded-r-lg border-l-4 border-[#04aa6d] py-3 px-4 text-[19px]">
                                 <div>
                                     <div className="font-medium">
                                         <h2>What is JavaScript Data Types ?</h2>

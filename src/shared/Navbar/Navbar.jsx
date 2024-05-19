@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/w3Schools-logo.png'
+// import logo from '../../assets/w3Schools-logo.png'
+import logo2 from '../../assets/n-logo.jpg'
 import { MdSearch } from "react-icons/md";
 
 const Navbar = () => {
     const navlink = <>
-        <Link><img className='w-20 h-16' src={logo} alt="" /></Link>
+        <Link><img className='w-20 h-16' src={logo2} alt="" /></Link>
         <Link><li className='hover:bg-[#04aa6d] hover:text-white text-[18xl] h-16 flex items-center px-5 -tracking-tighter' >Exersise </li></Link>
         <Link><li className='hover:bg-[#04aa6d] hover:text-white text-[18xl] h-16 flex items-center px-5 -tracking-tighter' >Tutorials</li></Link>
         <Link><li className='hover:bg-[#04aa6d] hover:text-white text-[18xl] h-16 flex items-center px-5 -tracking-tighter' >Certificates</li></Link>
